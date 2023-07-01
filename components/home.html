@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../components/home.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- <script>
+        function greetUser() {
+            var name = prompt("Masukkan nama kamu :");
+
+            if (name != null && name != "") {
+                alert("Halo " + name + ", Selamat datang di website saya!");
+            }
+        }
+
+        greetUser();
+    </script> -->
+    <title>wabeCivitas - Beranda</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #fff;
+    }
+
+    .text-justify {
+        text-align: justify !important;
+    }
+
+    .bg-danger-subtle {
+        background-color: #F1C376 !important;
+    }
+
+    .text-indent {
+        text-indent: 2em !important;
+    }
+
+    .text-hover:hover {
+        color:#F1C376 !important;
+    }
+</style>
+
+<body>
+    <!-- TOPBAR PAGE -->
+    <topbar class="container-topbar">
+        <div class="image">
+            <img src="https://mamujukab.bps.go.id/backend/images/Header-Frontend-Besar-ind.png" alt="BPS-logo">
+            <img onclick="sapa()" src="https://www.bps.go.id/images/berakhlak.png" alt="AKHLAK-logo">
+        </div>
+    </topbar>
+
+    <!-- NAVBAR SECTION -->
+    <section class="row">
+        <nav class="container-fluid bg-danger-subtle">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid d-flex justify-content-between">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav-fill w-100 text-black fw-medium">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                            <a class="nav-link" href="../components/tentang.html">Tentang Kami</a>
+                            <a class="nav-link" href="../components/berita.html">Berita</a>
+                            <a class="nav-link" href="../components/publikasi.html">Publikasi</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </section>
+
+    <!-- EXTRA PAGE -->
+    <div class="extra">
+        <div>
+            <span><a href="">Beranda</a> >></span>
+        </div>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 mb-2">
+                <img src="https://mamujukab.bps.go.id/backend/images/banner-top-ind.jpg" style="cursor: pointer;"
+                    class="w-100" alt="">
+            </div>
+            <div class="col-lg-3 col-md-12">
+                <div class="accordion accordion-flush mb-2" id="accordionFlushExample">
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-bg-warning text-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Sosial Dan Kependudukan
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/sosial dan kependudukan/gender.html"
+                                class="accordion-body text-decoration-none text-hover">Gender</a>
+                        </div>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/sosial dan kependudukan/geografi.html"
+                                class="accordion-body text-decoration-none text-hover">Geografi</a>
+                        </div>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/sosial dan kependudukan/Iklim.html"
+                                class="accordion-body text-decoration-none text-hover">Iklim</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-bg-primary" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Ekonomi dan Perdagangan
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/ekonomi dan perdagangan/energi.html" class="accordion-body text-decoration-none text-hover">Energi</a>
+                        </div>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/ekonomi dan perdagangan/industri.html" class="accordion-body text-decoration-none text-hover">Industri</a>
+                        </div>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/ekonomi dan perdagangan/inflasi.html" class="accordion-body text-decoration-none text-hover">Inflasi</a>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-bg-success" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Pertanian dan Pertambangan
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/pertanian dan pertambangan/holtikultura.html" class="accordion-body text-decoration-none text-hover">Hortikultura</a>
+                        </div>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/pertanian dan pertambangan/kehutanan.html" class="accordion-body text-decoration-none text-hover">Kehutanan</a>
+                        </div>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <a href="../components/daftar_subjek/pertanian dan pertambangan/peternakan.html" class="accordion-body text-decoration-none text-hover">Peternakan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid bg-body-secondary d-none d-lg-block py-2 my-2">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/infografis_ind.jpg" class="w-100"
+                                alt="Galeri Infografis">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/tabel-dinamis.jpg" class="w-100"
+                                alt="tabel Dinamis">
+                        </a>
+                        <a href="#">
+                            <img src="https://www.bps.go.id/images/index/kbli-kbki.jpg" class="w-100"
+                                alt="Kamus Pembakuan Statistik">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/pnbp.jpg" class="w-100"
+                                alt="Cara mendapatkan data BPS">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/unduh.jpg" class="w-100" alt="Unduh">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/istilah.jpg" class="w-100"
+                                alt="Istilah Statistik">
+                        </a>
+                    </div>
+                </div>
+                <div class="container-fluid d-none d-lg-block bg-body-secondary py-2 my-2">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/bps-ri.jpg" class="w-100" alt="BPS">
+                        </a>
+                        <a href="#">
+                            <img src="https://www.bps.go.id/images/index/fms.jpg" class="w-100"
+                                alt="Forum Masyarakat Statistik">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/metadata.jpg" class="w-100"
+                                alt="Metadata">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/rb.jpg" class="w-100"
+                                alt="Reformasi Birokrasi">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/pengaduan.jpg" class="w-100"
+                                alt="Pengaduan">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/lpse.jpg" class="w-100" alt="LPSE">
+                        </a>
+                        <a href="#">
+                            <img src="http://www.bps.go.id/images/index/stis.jpg" class="w-100" alt="STIS">
+                        </a>
+                        <a href="#">
+                            <img src="https://mamujukab.bps.go.id/images/index/pusdiklat.jpg" class="w-100"
+                                alt="Pusdiklat">
+                        </a>
+                    </div>
+                </div>
+                <div class="container-fluid d-none d-lg-block bg-body-secondary py-2 my-2">
+                    <div class="row justify-content-center align-items-center g-2">
+                        <h4 class="text-center">Social Media</h4>
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <a href=""><img src="https://mamujukab.bps.go.id/images/fcbk.png" class="w-100"
+                                    alt="Fb"></a>
+                            <a href=""><img src="https://mamujukab.bps.go.id/images/instgr.png" class="w-100"
+                                    alt="Ig"></a>
+                            <a href=""><img src="https://mamujukab.bps.go.id/images/twt.png" class="w-100"
+                                    alt="Twitter"></a>
+                            <a href=""><img src="https://mamujukab.bps.go.id/images/ytb.png" class="w-100"
+                                    alt="Youtube"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 py-2">
+                <img src="https://www.bps.go.id/images/sdgs.jpg" style="cursor: pointer;" class="w-100" alt="">
+                <h4 class="my-2 text-center bg-primary">Informasi Terbaru</h4>
+                <div id="carouselExampleInterval" class="carousel slide mb-4" style="height: 28em"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <h5>Publikasi Statistik</h5>
+                            <ul>06 Juni 2023
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                            </ul>
+                            <ul>08 Mei 2023
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <h5>Tabel Statistik</h5>
+                            <ul>06 Juni 2023
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                            </ul>
+                            <ul>08 Mei 2023
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <h5>Berita Resmi Statistik</h5>
+                            <ul>06 Juni 2023
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                                <li>BPS Mamuju rilis data inflasi bulan mei 2023, angka inflasi mencapai 1,8%</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"
+                            class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                            class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                            class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-center bg-primary">Jadwal Jumpa Pers</h4>
+                    <p>Tidak ditemukan hasil</p>
+                </div>
+                <div>
+                    <h4 class="text-center bg-primary">Tahukah Anda</h4>
+                    <p>Mamuju merupakan kabupaten dengan luas terbesar di Sulawesi Barat</p>
+                    <p>(Sumber: Data Wilayah)</p>
+                </div>
+                <div>
+                    <h4 class="text-center bg-primary">Publikasi</h4>
+                    <p><a href="#" class="text-decoration-none">Produk Domestik Regional Bruto Kabupaten Mamuju Menurut
+                            Pengeluaran 2018-2022</a></p>
+                    <p><a href="#" class="text-decoration-none">Produk Domestik Regional Bruto Kabupaten Mamuju Menurut Lapangan Usaha 2018-2022</a></p>
+                    <p><a href="#" class="text-decoration-none">Indeks Pembangunan Manusia (IPM) Kabupaten Mamuju
+                            2022</a></p>
+                    <p><a href="#" class="text-decoration-none">Kabupaten Mamuju Dalam Angka 2023</a></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 py-2">
+                <div class="row gap-2 mx-auto">
+                    <form action="" class="mb-2">
+                        <label for="website" class="d-flex justify-content-center align-items-center mx-auto">Website
+                            BPS
+                            Kabupaten/Kota</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Website Kabupaten/Kota</option>
+                            <option value="1">Provinsi Sulawesi Barat</option>
+                            <option value="2">Kabupaten Majene</option>
+                            <option value="3">Kabupaten Polewali Mandar</option>
+                            <option value="3">Kabupaten Mamasa</option>
+                            <option value="3">Kabupaten Mamuju Utara</option>
+                            <option value="3">Kabupaten Mamuju Tengah</option>
+                        </select>
+                    </form>
+                    <img src="https://www.bps.go.id/images/sp2020-lp.png" alt="Info Seputar SP2020"
+                        style="cursor: pointer" class="w-100 bg-body-secondary">
+                    <div class="row mx-auto bg-body-secondary">
+                        <div class="col">
+                            <img src="https://www.bps.go.id/images/cov-info.png" style="cursor: pointer;"
+                                alt="Info Covid" class="w-100 bg-body-secondary">
+                        </div>
+                        <div class="col">
+                            <img src="https://www.bps.go.id/images/cov-pub.png" style="cursor: pointer;"
+                                alt="Info Covid" class="w-100 bg-body-secondary">
+                        </div>
+                    </div>
+                    <img src="https://www.bps.go.id/images/plan.gif" alt="Data Perencanaan Pembangunan"
+                        style="cursor: pointer" class="w-100 bg-body-secondary">
+                    <img src="https://www.bps.go.id/images/sgis.jpg" alt="Statistical Geographic"
+                        style="cursor: pointer" class="w-100 bg-body-secondary">
+                    <div class="mt-2">
+                        <h4 class="text-center bg-primary ">Aplikasi Allstar BPS</h4>
+                        <div class="row mx-auto">
+                            <div class="col">
+                                <img src="https://www.bps.go.id/images/allstatind.png" alt="App android"
+                                    style="cursor: pointer" class="w-100">
+                            </div>
+                            <div class="col">
+                                <img src="https://www.bps.go.id/images/allstatind-ios.png" alt="App ios"
+                                    style="cursor: pointer" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <img src="https://mamujukab.bps.go.id/backend/images/Leaflet-SPLF2020-Kabupaten-Mamuju-ind.png"
+                                    style="cursor: pointer" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="https://mamujukab.bps.go.id/backend/images/Gratifikasi-ind.jpeg"
+                                    style="cursor: pointer" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="https://mamujukab.bps.go.id/backend/images/ipm-baru-metode-ind.jpg"
+                                    style="cursor: pointer" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="https://mamujukab.bps.go.id/backend/images/BRS-Transportasi-November-2019-ind-ind.png"
+                                    style="cursor: pointer" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="https://mamujukab.bps.go.id/backend/images/Banner-Moto-ind.jpg"
+                                    style="cursor: pointer" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="text-center container-footer">
+        <div class="footer">
+            <h5>BPS Kabupaten Mamuju</h5>
+            <p>Jl. Trans Sulawesi Lingkungan Timbu Kelurahan Mamunyu Kecamatan Mamuju Sulawesi Barat 91511</p>
+            <p>Telp. : - Mailbox : bps7604@bps.go.id Homepage : http://mamujukab.bps.go.id</p>
+            <p>Untuk tampilan terbaik Anda dapat gunakan berbagai jenis browser kecuali IE, Mozilla Firefox 3-, and
+                Safari
+                3.2- dengan lebar minimum browser beresolusi 275 pixel.</p>
+            <p>Copyright ES 2023 | All Right Reserved</p>
+        </div>
+    </footer>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <span><a href="#">Daftar Media Sosial Kami</a> || Layanan data kami dapat dilakukan melalui chat Whatsapp di
+            hari kerja 07.30-15.30 WITA ke +62812 **** *** || Isi kotak saran di <a href="#">di sini</a></span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="../components/script.js"></script>
+</body>
+
+</html>
